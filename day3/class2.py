@@ -1,3 +1,32 @@
+# class Car:
+#     	def __init__(self):
+#             print('자동차 불림')
+    
+# car = Car()
+
+'''
+class BananaPhone:
+    phone_name = '어른폰'
+ 
+    def __init__(self, number, owner):
+        self.number = number
+        self.owner = owner
+ 
+    def print(self):
+        s = f'이 폰은 {self.phone_name} 기종이며\n'
+        s += f'번호는 {self.number} 이고\n'
+        s += f'이 폰의 주인은 {self.owner} 입니다.\n'
+        print(s)
+ 
+ 
+# 객체, 인스턴스 생성
+p1 = BananaPhone('010-1111-2222', '개님')
+p2 = BananaPhone('010-7777-0000', '고양이님')
+ 
+p1.print()
+p2.print()
+'''
+
 '''
 #클래스 예제
 #게임 캐릭터 클래스 
@@ -22,9 +51,9 @@ class Ch:
     def live(self):
         statement = ''
         if self.score >0 :
-            statement = False
-        else :
             statement = True
+        else :
+            statement = False
         return statement
     # 캐릭터가 살아 있으면 공격 캐릭터의 공격력 만큼 체력 감소
     # 이미 캐릭터가 죽었으면 죽었다는 메시지 출력
@@ -52,8 +81,8 @@ ch2= Ch('홍길동',200,50)
 print(ch1)
 print(ch2)
 
-ch1.other(ch2)
-print(ch1)
+ch2.other(ch1)
+print(ch2)
 '''
 
 '''

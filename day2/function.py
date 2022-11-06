@@ -53,9 +53,9 @@
 # from functools import reduce
 
 
-# # res = list(map(lambda x:x**2,range(10)))
-# # print(res)
-# #reduce(함수, 시퀀스)
+# res = list(map(lambda x:x**2,range(10)))
+# print(res)
+#reduce(함수, 시퀀스)
 # res2 = reduce(lambda x,y : x+y , [0,1,2,3,4,5])
 # print(res2)
 
@@ -63,16 +63,16 @@
 # res3 = list(filter(lambda x:x<5, range(10)))
 # print(res3)
 
-# #재귀함수
-# def tot(n):
-#     print(n)
-#     if n==1:
-#         print("탈출")
-#         return True
-#     return n+tot(n-1)
+#재귀함수
+def tot(n):
+    print(n)
+    if n==1:
+        print("탈출")
+        return True
+    return n+tot(n-1)
 
-# rs = tot(10)
-# print(rs)
+rs = tot(10)
+print(rs)
 # # 연습문제 1
 # datas = [1,3,5,7,9,2,4,6]
 # def checkfunc(datas,x):
